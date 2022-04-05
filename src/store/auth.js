@@ -1,8 +1,8 @@
-import { createStore } from "vuex";
+// import { createStore } from "vuex";
 import { BaseApiUrl } from "../Constants";
 import axios from "axios";
 
-export default createStore({
+export const Auth = {
   state: {},
   actions: {
     async register(state, params) {
@@ -34,4 +34,4 @@ export default createStore({
   },
   mutations: {},
   modules: {},
-});
+};
